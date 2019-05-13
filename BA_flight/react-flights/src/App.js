@@ -7,13 +7,16 @@ var cors = require('cors')
 console.log("BOB")
 
 function App() {
-  console.log("inside")
-  $.ajaxSetup({
-    headers : {
-      'client-key' : 'n76ry9ya3rxvdygzdkuzzvqa'
-    }
-  });
-  $.getJSON('https://api.ba.com/rest-v1/v1/flights;departureLocation=LHR', function(json) { console.log("Success"); });
+
+  $.getJSON('http://aviation-edge.com/v2/public/flights?key=e512c0-465204&limit=2').then(function(response){
+    var arrayLength = response.length
+    for (var i = 0; i < arrayLength; i++) {
+    console.log(response[i].status);
+    //Do something
+}
+    console.log(response.length)
+
+   });
 
 return("dog")
   };
