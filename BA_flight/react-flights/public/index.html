@@ -28,16 +28,12 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <form id='includes'>
-    Actual Flight Number: <input type='text' id='acflightnumtext'>
-      <input type='submit' id='submit'>
-    </form>
-    <form id='flightnumber'>
-    Flight Number: <input type='text' id='flightnumtext'>
-      <input type='submit' id='submit'>
-    </form>
     <form id='airline'>
     Airline: <input type='text' id='airlinetext'>
+      <input type='submit' id='submit'>
+    </form>
+    <form id='includes'>
+    Flight Number: <input type='text' id='acflightnumtext'>
       <input type='submit' id='submit'>
     </form>
 
@@ -53,6 +49,7 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
     <p id='airlinestuff'></p>
+    <div id='append'></div>
     <div id='country'></div>
     <div id='fn'></div>
     <div id='inc'></div>

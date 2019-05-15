@@ -1,3 +1,13 @@
+Flight Tracker Webpage.
+
+I aim to build a react webpage that will be able to provide information about flight times/schedules/location/etc.
+
+Flight Information API: https://aviation-edge.com/developers/
+Geolocation API: https://opencagedata.com
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
