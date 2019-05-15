@@ -1,9 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './Airline';
-import Country from './Country';
-import FlightNumbers from './FlightNumbers';
+import './acflightnum.css';
 import Include from './acflightnum';
 import * as serviceWorker from './serviceWorker';
 import $ from 'jquery';
@@ -11,7 +8,6 @@ var cors = require('cors')
 
 // App.use(cors()) // Use this after the variable declaration
 
-ReactDOM.render(<App />, document.getElementById('root'));
 // ReactDOM.render(<Country />, document.getElementById('country'));
 // ReactDOM.render(<FlightNumbers />, document.getElementById('fn'));
 ReactDOM.render(<Include />, document.getElementById('inc'));

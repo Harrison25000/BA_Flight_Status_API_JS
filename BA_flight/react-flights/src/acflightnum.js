@@ -27,6 +27,7 @@ function Include() {
        $("#airlineflights").remove();
        body.appendChild(button);
        document.getElementById("airlineflights").addEventListener("click", function(event){
+       $('#inc').text('')
        var i
        for (i = 0; i < airline.length; ++i) {
          var air = airline[i].flight.iataNumber;
