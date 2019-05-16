@@ -53,7 +53,7 @@ function Include() {
        if(airline[i].flight.iataNumber.includes(evt)){
        $('#airlinestuff').text(airline[i].flight.iataNumber)
        var status = document.getElementById('airlinestuff');
-       status.innerHTML += "<div id='statusadd' style='color:green'> "+airline[i].status+"</div>"
+       status.innerHTML += "<div id='statusadd' style='color:green'> Status: "+airline[i].status+"</div>"
        var lat = airline[i].geography.latitude
        var long = airline[i].geography.longitude
        console.log(lat)
